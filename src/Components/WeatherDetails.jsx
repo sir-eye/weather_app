@@ -1,5 +1,5 @@
 import React from 'react';
-import weatherIcons from '../Icons/weatherIcons';
+import weatherIcons from '../weatherIcons';
 import './CSS/WeatherDetails.css';
 
 const WeatherDetails = ({ weatherData }) => {

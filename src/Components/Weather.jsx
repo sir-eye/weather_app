@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './CSS/Weather.css';
-import WeatherDetails from './WeatherDetails';
-import SearchBar from './SearchBar';
-import weatherIcons from '../Icons/weatherIcons';
+import WeatherDetails from '../WeatherDetails';
+import SearchBar from '../SearchBar';
+import weatherIcons from '../../weatherIcons';
 
 const Weather = () => {
   const [city, setCity] = useState('');
