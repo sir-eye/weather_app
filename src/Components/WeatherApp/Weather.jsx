@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CSS/Weather.css';
 import WeatherDetails from './WeatherDetails';
-import SearchBar from '../../SearchBar';
+import SearchBar from './SearchBar';
 import weatherIcons from '../Icons/weatherIcons';
 
 const Weather = () => {

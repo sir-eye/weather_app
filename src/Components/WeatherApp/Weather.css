@@ -1,0 +1,54 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar img {
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-details img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-stats {
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .weather-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
